@@ -3,7 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* main - find if number is positive or negative
+/**
+ * main - find if number is positive or negative
  * Return: success is 0, else, 1
  */
 int main(void)
