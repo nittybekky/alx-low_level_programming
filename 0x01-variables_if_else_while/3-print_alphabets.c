@@ -16,10 +16,10 @@ int main(void)
 	}
 
 	while (letterBig <= 'Z')
-        {
-                putchar(letterBig);
-                letterBig++;
-        }
+	{
+		putchar(letterBig);
+		letterBig++;
+	}
 
 	putchar('\n');
 
