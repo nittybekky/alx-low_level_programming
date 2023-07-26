@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 
 /* main - find if number is positive or negative
  * Return: success is 0, else, 1
@@ -14,15 +15,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		put("is positive");
+		printf("%d is positive", n);
 	}
 	if (n < 0)
 	{
-		put("is negative");
+		printf("%d is negative", n);
 	}
 	if (n = 0)
 	{
-		put("is zero");
+		printf("%d is zero", n);
 	}
 	return (0);
 }
