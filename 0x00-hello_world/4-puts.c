@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main function - This is a description
- * /
+ * main - This is a put description
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
