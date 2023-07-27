@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return: 0 is success
- */
+* main - entry point
+* Return: 0 is success
+*/
 
 int main(void)
 {
-	char hexa;
-	
-	for (hexa = '0'; hexa <= '9'; hexa++)
-	{
-		putchar(hexa);
-	}
-	for (hexa = 'a'; hexa <= 'f'; hexa++)
-	{
-		putchar(hexa);
-	}
+char hexa;
 
-	putchar('\n');
+for (hexa = '0'; hexa <= '9'; hexa++)
+{
+putchar(hexa);
+}
+for (hexa = 'a'; hexa <= 'f'; hexa++)
+{
+putchar(hexa);
+}
 
-	return (0);
+putchar('\n');
+
+return (0);
 }
