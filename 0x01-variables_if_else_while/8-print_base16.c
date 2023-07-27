@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(hexa);
 	}
-	for (hexa = 'a'; haxa <= 'f'; hexa++)
+	for (hexa = 'a'; hexa <= 'f'; hexa++)
 	{
 		putchar(hexa);
 	}
