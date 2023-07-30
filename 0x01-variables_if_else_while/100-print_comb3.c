@@ -7,14 +7,14 @@
 */
 char *_custom_strcat(char *dest, char *src)
 {
-/* Find the end of the destination string */
 int dest_len = 0;
+int i; /* Declare 'i' at the beginning of the block */
+/* Find the end of the destination string */
 while (dest[dest_len] != '\0')
 {
 dest_len++;
 }
 /* Append the source string to the destination string */
-int i; // Declare 'i' at the beginning of the block
 for (i = 0; src[i] != '\0'; i++)
 {
 dest[dest_len + i] = src[i];
