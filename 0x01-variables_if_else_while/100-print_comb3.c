@@ -8,20 +8,21 @@
 */
 char *_custom_strcat(char *dest, char *src)
 {
-int dest_len = 0;
-int i;
+char *dest_end = dest;
 /* Find the end of the destination string */
-while (dest[dest_len] != '\0')
+while (*dest_end)
 {
-dest_len++;
+dest_end++;
 }
 /* Append the source string to the destination string */
-for (i = 0; src[i] != '\0'; i++)
+while (*src)
 {
-dest[dest_len + i] = src[i];
+*dest_end = *src;
+dest_end++;
+src++;
 }
 /* Add a terminating null byte at the end of the concatenated string */
-dest[dest_len + i] = '\0';
+*dest_end = '\0';
 return dest;
 }
 int main(void)
