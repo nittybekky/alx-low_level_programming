@@ -2,7 +2,7 @@
 /**
 * main - Entry point of the program
 *
-* Description: This program prints "_putchar" followed by a new line using printf.
+* Description: Prints "_putchar" followed by a new line using printf.
 *
 * Return: Always 0 (Success)
 */
