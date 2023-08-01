@@ -1,13 +1,11 @@
-#include "main.h"
 /**
-* print_numbers - Prints numbers from 0 to 9 followed by a new line.
+* mul - Multiplies two integers.
+* @a: The first integer.
+* @b: The second integer.
 *
-* Return: void.
+* Return: The result of the multiplication.
 */
-void print_numbers(void)
+int mul(int a, int b)
 {
-int i;
-for (i = 0; i <= 9; i++)
-_putchar(i + '0');
-_putchar('\n');
+return (a * b);
 }
