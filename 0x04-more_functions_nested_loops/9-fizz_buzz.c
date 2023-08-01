@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void fizz_buzz(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
